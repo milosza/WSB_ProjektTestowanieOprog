@@ -190,7 +190,8 @@ class RegistrationPage(BasePage):
     def firstname_check(self):
             print()
             print('Test 1.1.2 - 1.1.3')
-
+            self.browser.execute_script("arguments[0].click();", self.button_save)
+            self.browser.implicitly_wait(strings.timeout)
             for entry in strings.registration_data_invalid_firstname:
                 self.input_firstname.send_keys(entry)
                 print(entry , end=" ")
@@ -205,7 +206,8 @@ class RegistrationPage(BasePage):
     def lastname_check(self):
             print()
             print('Test 1.1.4 - 1.1.5')
-
+            self.browser.execute_script("arguments[0].click();", self.button_save)
+            self.browser.implicitly_wait(strings.timeout)
             for entry in strings.registration_data_invalid_lastname:
                 self.input_lastname.send_keys(entry)
                 print(entry , end=" ")
@@ -220,7 +222,8 @@ class RegistrationPage(BasePage):
     def email_check(self):
             print()
             print('Test 1.1.6 - 1.1.9')
-
+            self.browser.execute_script("arguments[0].click();", self.button_save)
+            self.browser.implicitly_wait(strings.timeout)
             for entry in strings.registration_data_invalid_email:
                 self.input_email.send_keys(entry)
                 print(entry , end=" ")
@@ -235,7 +238,8 @@ class RegistrationPage(BasePage):
     def password_check(self):
             print()
             print('Test 1.1.10')
-
+            self.browser.execute_script("arguments[0].click();", self.button_save)
+            self.browser.implicitly_wait(strings.timeout)
             for entry in strings.registration_data_invalid_password:
                 self.input_password.send_keys(entry)
                 print(entry , end=" ")
@@ -250,7 +254,8 @@ class RegistrationPage(BasePage):
     def phone_check(self):
             print()
             print('Test 1.1.11')
-
+            self.browser.execute_script("arguments[0].click();", self.button_save)
+            self.browser.implicitly_wait(strings.timeout)
             for entry in strings.registration_data_invalid_phone:
                 self.input_phone.send_keys(entry)
                 print(entry , end=" ")
@@ -265,7 +270,8 @@ class RegistrationPage(BasePage):
     def zipcode_check(self):
             print()
             print('Test 1.1.12')
-
+            self.browser.execute_script("arguments[0].click();", self.button_save)
+            self.browser.implicitly_wait(strings.timeout)
             for entry in strings.registration_data_invalid_zipcode:
                 self.input_zipcode.send_keys(entry)
                 print(entry , end=" ")
