@@ -42,13 +42,3 @@ def test_1_2_1_to_1_2_2_create_account_customer_already_exists(browser):
 def test_1_4_1_first_login(browser):
     login_page = LoginPage(browser)
     assert login_page.login() is True
-
-# def test_1_1_create_account_field_validation(browser):
-#     registration_page = RegistrationPage(browser)
-#     assert registration_page.empty_fields()
-#     assert registration_page.firstname_check()
-#     assert registration_page.lastname_check()
-#     assert registration_page.email_check()
-#     assert registration_page.password_check()
-#     assert registration_page.phone_check()
-#     assert registration_page.zipcode_check()

@@ -71,3 +71,11 @@ address_data_invalid_email = ["a",
                                    ]
 address_data_invalid_zipcode =["aa-bbb",
                       ]
+
+product_url = "https://mediamarkt.pl/agd-male/odkurzacz-workowy-electrolux-epf61rr"
+
+product_availability_cities_list = ["Wrocław",
+                                   "Wroclaw",
+                                   "",
+                                   "@$$%@",
+                                   ]
