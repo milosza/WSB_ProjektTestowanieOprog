@@ -41,10 +41,10 @@ login_data = {"email": "projektautomatyzacjitestowgr1@gmail.com",
               "password2": "a",
               }
 
-search_data = { "1": "Monitor",
-               "2": "1234",
-               "3": "java",
-               "4": "!@#$%",
+search_data = {"a": "Monitor",
+               "b": "123456789",
+               "c": "java",
+               "d": "!@#$%",
                }
 
 save_box_url = "https://mediamarkt.pl/profile/save-box"
