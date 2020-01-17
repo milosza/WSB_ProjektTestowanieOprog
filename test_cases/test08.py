@@ -1,3 +1,4 @@
+#Miłosz
 from page_objects.product_page import ProductPage
 
 def test_logger(logger):

@@ -360,7 +360,7 @@ class AddressListPage(BasePage):
             return True
         else:
             print('Test failed, screenshot saved: new_address_save_check.png')
-            self.browser.save_screenshot('new_address_save_check.png')
+            self.browser.save_screenshot('new_address_save_check_falied.png')
             return False
 
     def edit_address_no_change_check(self):

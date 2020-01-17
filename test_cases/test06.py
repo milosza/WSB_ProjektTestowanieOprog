@@ -1,3 +1,4 @@
+#Tomek
 from page_objects.search_page import SearchPage
 
 def correct_page(browser):
@@ -21,5 +22,3 @@ def test_6_3_search_word(browser):
 def test_6_4_search_string(browser):
     search_page = SearchPage(browser)
     assert search_page.incorrect_search_3() is True
-
-

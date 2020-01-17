@@ -47,7 +47,25 @@ search_data = {"a": "Monitor",
                "d": "!@#$%",
                }
 
-save_box_url = "https://mediamarkt.pl/profile/save-box"
+resetting_url = "https://mediamarkt.pl/resetting"
+
+resetting_data = {"email": "projektautomatyzacjitestowgr1@gmail.com",
+                  "email2": "projektautomatyzacjitestowgr1gmail.com"
+              }
+
+changing_password_url = "https://mediamarkt.pl/reset/SHK7-jmFJ-51xEb1YS3Smry-KuzE95HkSBb-PmSxoHw"
+
+changing_password_data = {"password": "1qwerty!@#",
+                          "wrong_password": "1qwerty!@#$"
+              }
+
+bucket_product_url = "https://mediamarkt.pl/rtv-i-telewizory/telewizor-samsung-ue65ru7452u"
+
+bucket_data = {"post_code": "55081",
+               "post_code_wrong": "00-000"
+              }
+
+save_box_url = "https://mediamarkt.pl/agd-male/odkurzacz-workowy-electrolux-epf61rr"
 
 address_list_url = "https://mediamarkt.pl/profile/address/list"
 
@@ -62,8 +80,10 @@ address_data = {"address_name": "Adres zapisany podczas testow",
                       }
 
 address_data_invalid_street = ["a",
-                                   ]
+                                ]
+
 address_data_invalid_street_number = []
+
 address_data_invalid_email = ["a",
                                    "123",
                                    "mail_bez_malpy.com",
@@ -79,3 +99,9 @@ product_availability_cities_list = ["Wrocław",
                                    "",
                                    "@$$%@",
                                    ]
+
+
+discount_url = "https://mediamarkt.pl/koszyk/lista"
+discount_data = {"a": "6998C4",
+                 "b": "6998C5",
+                 }

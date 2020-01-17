@@ -318,4 +318,6 @@ class RegistrationPage(BasePage):
             return True
         except Exception as error:
             print(error)
+            print('False')
+            self.browser.save_screenshot('db_data_exists_false.png')
 

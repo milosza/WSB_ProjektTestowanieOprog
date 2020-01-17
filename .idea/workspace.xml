@@ -2,11 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26bd172-cf15-4c39-b98a-9194a068a4ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/page_objects/product_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_cases/test08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/bonus_code_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/bucket_checking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/changing_password.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_objects/password_resetting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/new_address_save_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_cases/test04.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/strings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/strings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/address_list_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/address_list_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/registration_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/registration_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/save_box_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/save_box_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_objects/search_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/search_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_cases/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test03.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test05.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test05.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test06.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test06.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test08.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test09.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test09.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test10.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test10.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,26 +51,32 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LittleProjects/Cena Madery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test08.py">
-    <configuration name="pytest for test05.test_5_2_1_edited_address_save_success_validation" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest in test10.py">
+    <configuration name="search_page" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WSB_PZZTO_MediaMarkt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_objects" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test05.test_5_2_1_edited_address_save_success_validation&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_objects/search_page.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test05.test_5_2_5_edited_address_no_change_validation" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test06.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WSB_PZZTO_MediaMarkt" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,37 +87,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test05.test_5_2_5_edited_address_no_change_validation&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="WSB_PZZTO_MediaMarkt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test01.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test05.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="WSB_PZZTO_MediaMarkt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test05.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test06.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -114,13 +106,43 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test09.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="WSB_PZZTO_MediaMarkt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test09.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test10.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="WSB_PZZTO_MediaMarkt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test10.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test10.py" />
+        <item itemvalue="Python tests.pytest in test09.py" />
         <item itemvalue="Python tests.pytest in test08.py" />
-        <item itemvalue="Python tests.pytest in test01.py" />
-        <item itemvalue="Python tests.pytest for test05.test_5_2_5_edited_address_no_change_validation" />
-        <item itemvalue="Python tests.pytest for test05.test_5_2_1_edited_address_save_success_validation" />
-        <item itemvalue="Python tests.pytest in test05.py" />
+        <item itemvalue="Python tests.pytest in test06.py" />
+        <item itemvalue="Python.search_page" />
       </list>
     </recent_temporary>
   </component>
@@ -161,26 +183,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="719" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1576753670233" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578564023013">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1578850157591">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578564023013" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1578849692588">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578850157591" />
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1579292277342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578849692588" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1578849692588">
+    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579292277342" />
+    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1579292277342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578849692588" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1578849692587">
+    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579292277342" />
+    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1579292277342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578849692587" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1578849692588">
+    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579292277342" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1579292277342">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578849692588" />
+    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579292277342" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1576795229241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -201,9 +223,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576785099428" />
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578739572430">
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1578850146117">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578739572430" />
+    <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578850146117" />
   </component>
 </project>

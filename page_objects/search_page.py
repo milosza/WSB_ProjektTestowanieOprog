@@ -1,3 +1,4 @@
+#Tomek
 import time
 from config import strings
 from selenium.webdriver.common.by import By
