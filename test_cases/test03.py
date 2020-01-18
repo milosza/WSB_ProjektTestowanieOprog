@@ -13,19 +13,19 @@ def test_3_1_1_correct_data(browser):
 
 def test_3_1_2_incorrect_email(browser):
     login_page = LoginPage(browser)
-    assert login_page.login_1() is True
+    assert login_page.login_1() == 'Nieprawidłowy adres e-mail lub hasło'
 
 def test_3_1_3_incorrect_syntax_email(browser):
     login_page = LoginPage(browser)
-    assert login_page.login_2() is True
+    assert login_page.login_2() == "Nieprawidłowy adres email"
 
 def test_3_1_4_incorrect_password(browser):
     login_page = LoginPage(browser)
-    assert login_page.login_3() is True
+    assert login_page.login_3() == "Nieprawidłowy adres e-mail lub hasło"
 
 def test_3_1_5_incorrect_syntax_password(browser):
     login_page = LoginPage(browser)
-    assert login_page.login_4() is True
+    assert login_page.login_4() == "Nieprawidłowy adres e-mail lub hasło"
 
 def test_3_2_1_correct_account(browser):
     login_page = LoginPage(browser)
