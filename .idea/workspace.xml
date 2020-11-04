@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f26bd172-cf15-4c39-b98a-9194a068a4ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test_cases/db_data_exists_false.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page_objects/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_objects/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/new_address_save_check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_cases/test03.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test03.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_cases/test01.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_cases/test01.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +36,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test03.py">
+  <component name="RunManager" selected="Python tests.pytest in test01.py">
+    <configuration name="pytest in test01.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="WSB_PZZTO_MediaMarkt" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test01.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test02.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WSB_PZZTO_MediaMarkt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,21 +97,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test09.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="WSB_PZZTO_MediaMarkt" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_cases" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_cases/test09.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test10.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="WSB_PZZTO_MediaMarkt" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test01.py" />
         <item itemvalue="Python tests.pytest in test03.py" />
         <item itemvalue="Python tests.pytest in test06.py" />
         <item itemvalue="Python tests.pytest in test02.py" />
         <item itemvalue="Python tests.pytest in test10.py" />
-        <item itemvalue="Python tests.pytest in test09.py" />
       </list>
     </recent_temporary>
   </component>
@@ -164,21 +163,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578850157591" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1579367927069">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1579429711352">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579429711352" />
     <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579367927069" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1579367927069">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1579429711352">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579429711352" />
     <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579367927069" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1579367927069">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1579429711352">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579429711352" />
     <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579367927069" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1579367927069">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1579429711352">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579429711352" />
     <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579367927069" />
     <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1576795229241">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -200,9 +203,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576785099428" />
-    <state x="661" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1579365811381">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="470" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1579428256399">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="470" y="240" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579428256399" />
     <state x="661" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579365811381" />
   </component>
 </project>
